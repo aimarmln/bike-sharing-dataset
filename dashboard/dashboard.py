@@ -31,8 +31,8 @@ def create_user_comparison_df(df: pd.DataFrame):
     return comparison_df
 
 # Mengambil semua data
-hour_df = pd.read_csv("dashboard\hour.csv")
-day_df = pd.read_csv("dashboard\day.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
+day_df = pd.read_csv("dashboard/day.csv")
 
 # Buat semua data yang diperlukan menggunakan function di atas
 byseason_df = create_byseason_df(day_df)
